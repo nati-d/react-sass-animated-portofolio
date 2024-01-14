@@ -40,7 +40,7 @@ const Portofolio = () => {
         github: "https://github.com/nati-d/nextjs-agencies-app",
         deploy: "https://mydev-agency.vercel.app/",
       },
-      tags: ["React", "Next", "Tailwind", "Framer Motion"],
+      tags: ["React", "Next", "Tailwind", "Framer Motion", "TypeScript"],
     },
     {
       id: 3,
