@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 const variants = {
   initial: {
     x: -200,
-    y:500,
+    y: 500,
     opacity: 0,
   },
   animate: {
     x: 0,
-    y:0,
+    y: 0,
     opacity: 1,
     transition: {
       duration: 0.5,
@@ -42,9 +42,14 @@ const Services = () => {
           <h1>
             <b>Presence</b> Matters
           </h1>
-          <motion.button initial={{background:'transparent'}} whileHover={{ background: "#ff6f61", color: "black" }}>
-            Contact Me
-          </motion.button>
+          <a href="#Contact">
+            <motion.button
+              initial={{ background: "transparent" }}
+              whileHover={{ background: "#ff6f61", color: "black" }}
+            >
+              Contact Me
+            </motion.button>
+          </a>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>

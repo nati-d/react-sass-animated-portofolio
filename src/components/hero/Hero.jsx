@@ -52,8 +52,8 @@ const Hero = () => {
           </motion.h2>
           <motion.h1 variants={textVariants}>Nathnael Desalegn</motion.h1>
           <motion.div className="buttons" variants={textVariants}>
-            <motion.button variants={textVariants}>
-              See the Latest works
+            <motion.button variants={textVariants} whileHover={{background:"white", color:'black'}} whileTap={{scale:0.90}}>
+              Download Resume
             </motion.button>
             <motion.button variants={textVariants}>Contact Me</motion.button>
           </motion.div>

@@ -12,8 +12,12 @@ const variants = {
 };
 
 const Navbar = () => {
-  const items = ["Homepage", "Services", "Portofolio", "Contact", "About"];
-
+  const items = [
+    { name: "Homepage", href: "#Hero" },
+    { name: "Services", href: "#Services" },
+    { name: "Portofolio", href: "#Portofolio" },
+    { name: "Contact", href: "#Contact" },
+  ];
   return (
     <div className="navbar">
       {/* Sidebar */}
@@ -29,20 +33,20 @@ const Navbar = () => {
 
         <motion.div className="menus" variants={variants} initial="initial" animate= "animate">
           {items.map((item) => (
-            <motion.a variants={variants}>{item}</motion.a>
+            <motion.a variants={variants} href={item.href}>{item.name}</motion.a>
           ))}
         </motion.div>
         <motion.div className="socials">
-          <a href="#">
+          <a href="https://github.com/nati-d">
             <img src="/github.png" alt="" />{" "}
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/nathnael-desalegn">
             <img src="/linkedin.png" alt="" />{" "}
           </a>
           <a href="#">
             <img src="/instagram.png" alt="" />{" "}
           </a>
-          <a href="#">
+          <a href="https://t.me/Serial442">
             <img src="/telegram.png" alt="" />{" "}
           </a>
         </motion.div>

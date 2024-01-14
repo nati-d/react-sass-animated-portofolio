@@ -44,27 +44,26 @@ const Portofolio = () => {
     },
     {
       id: 3,
-      img: "https://images.pexels.com/photos/7091921/pexels-photo-7091921.jpeg?auto=compress&cs=tinysrgb&w=600",
-      title: "Elegance in Code",
+      img: "/caxur.png",
+      title: "CAXUR",
       description:
-        "Immerse yourself in the world of UI design where elegance meets functionality. Our project showcases the power of charcoal gray to create a sophisticated and visually compelling user interface. Discover how thoughtful design enhances user interactions and delivers a seamless digital experience.",
-      links: {
-        github: "",
-        deploy: "",
+"A React-based animated project, elegantly weaving Framer Motion and Tailwind CSS. Experience seamless animations and dynamic transitions, showcasing a blend of creativity and technology in a visually stunning and interactive showcase."   ,   
+links: {
+        github: "https://github.com/nati-d/react-animated-car-showroom",
+        deploy: "https://carux.vercel.app/",
       },
-      tags: ["React", "Tailwind", "Css"],
+      tags: ["React", "Tailwind", "Framer-Motion"],
     },
     {
       id: 4,
-      img: "https://images.pexels.com/photos/7091928/pexels-photo-7091928.jpeg?auto=compress&cs=tinysrgb&w=600",
-      title: "CoralCommerce",
+      img: "ass.jpg",
+      title: "Assister",
       description:
-        "Step into the realm of SEO optimization with our latest project, where the coral color theme represents the impact we make on online visibility. Uncover the strategies employed to ensure top-ranking performance on search engines, driving business growth and maximizing digital presence.",
-      links: {
+"Our team of 5 crafted Assister, an innovative mobile app dedicated to supporting refugees. Built with React Native, Firebase, and Node.js, it covers mental health care, emergency contacts, news updates, fun facts about the host country, and hospital information. Leveraging advanced AI, Assister provides personalized guidance, news, and healthcare assistance. With a user-friendly interface and multilingual support, we aim to empower refugees by ensuring accessibility and inclusivity.",      links: {
         github: "",
         deploy: "",
       },
-      tags: ["React", "Tailwind", "Css"],
+      tags: ["ReactNative", "Nativewind", "Open-AI","Node", "Firebase"],
     },
   ];
   const Single = ({ work }) => {
