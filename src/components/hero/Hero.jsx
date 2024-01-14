@@ -55,7 +55,10 @@ const Hero = () => {
             <motion.button variants={textVariants} whileHover={{background:"white", color:'black'}} whileTap={{scale:0.90}}>
               Download Resume
             </motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+            <a href="#Contact">
+
+            <motion.button variants={textVariants}>Hire Me</motion.button>
+            </a>
           </motion.div>
           <motion.img
             src="./scroll.png"
